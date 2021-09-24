@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;700&family=Roboto:wght@400;700&display=swap');
+
+body {
+  background-image: url("https://img.cancaonova.com/cnimages/canais/uploads/sites/6/2010/09/formacao_1600x1200-o-universo-pode-ter-sido-criado-sem-deus.jpg");
+  background-size: 1740px 700px; 
+  
+  font-family: 'Roboto', sans-serif;
+  }
+.container {
+  Background: #f6f6f6;
+  color: #1C1C1C1;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0E1D2F;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+   
+}
+
+.perfil {
+  display: flex;
+  
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+  
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+  
+}
+
+.tema button {
+  align-self: flex-end;
+  font-weight: 400;
+  font-size: 24px;
+  padding: 8px 16px;
+  background: #EEE9E9;
+  border-radius: 100px;
+    
+}
+
+.projetos {
+    display: flex;
+  flex-direction: column;
+  background: linear-gradient(230.65deg, #68228B 27.49%, #BF3EFF 70.19%);
+  margin-top: 32px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+.projetos-titulo {
+  list-style: nome;
+  font-weight: 700;
+  font-size: 36px;
+  
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 48px;
+  
+}
+
+.projetos-item a {
+  color: #1C1C1C;
+  text-decoration: none;
+    
+}
+
+.dark {
+  background-image: url("https://socientifica.com.br/wp-content/uploads/2019/05/image_7150_1e-Hubble-Legacy-Field.jpg");
+  background-size: 1740px 700px; 
+}
+
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+}
+
+.dark .projetos {
+  color: #000000;
+  
+}
+
+.dark .tema button {
+  background: #000000;
+  color: #ffffff;
+  border: 2px solid #f7f7f7;
+  }
